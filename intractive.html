@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        background-image: url(2.jpg);
+        
+              }
+      .first{
+        text-align: center;
+        color: aliceblue;
+      }
+      .d{
+        font-weight: bold;
+      }
+      ul li a{
+        text-decoration: none;
+        list-style-type: none;
+        color: aliceblue;
+      }
+      ul li{
+        list-style-type: none;
+      }
+      .main{
+        background-color: rgb(252, 241, 208);
+        width: 800px;
+        height: 400px;
+        text-align: center;
+        margin-left: 230px;
+        border-radius: 100px;
+        padding: 20px;
+        border-style: dotted;            }
+     
+      
+      button{
+        position: relative;
+        top: 80px;
+        background-image: url(2.jpg);
+        border-radius: 15px;
+        color: aliceblue;
+        font-size: 20px;
+      }
+     
+      
+    </style>
+</head>
+<body>
+   
+  <header class="first">
+    <h1 class="d">Afghan Proverbs</h1>
+    <nav>
+      <ul>
+        <li><a href="index1.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="wall.html">Interactive Wall</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="main">
+    <h2>Share Your Favorite Proverb</h2>
+    <p>Submit a proverb you know and your name. It will help preserve our cultural wisdom.</p>
+
+    <form class="form">
+      <label for="proverb">Your Proverb:</label><br>
+      <textarea id="proverb" name="proverb" rows="6" placeholder="Enter proverb here..." required></textarea><br>
+      <br><br>
+
+      <label for="name" class="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Your name..." required /><br>
+
+      <button type="submit" >Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
+</body>
+</html>
